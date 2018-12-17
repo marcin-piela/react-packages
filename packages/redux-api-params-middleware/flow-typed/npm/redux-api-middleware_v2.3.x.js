@@ -17,7 +17,6 @@ declare module 'redux-api-middleware' {
       fetch?: (url: string | Request, init?: RequestOptions) => Promise<Response>,
       types: [R, S, F],
       params?: Object,
-      paramsOptions?: Object,
     },
   };
 
